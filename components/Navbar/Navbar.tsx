@@ -14,21 +14,20 @@ export function Navbar() {
     <div className={styles.navContainer}>
       <nav className={styles.nav}>
         <div className={styles.navLeft}>
-          <Link href="/" className={`${styles.homeLink} ${styles.navLeft}`}>
-            <Image
-              src="/logo.png"
-              width={48}
-              height={48}
-              alt="NFT marketplace sample logo"
-            />
+          <Link
+            href="/"
+            style={{ fontSize: "26px" }}
+            className={`${styles.homeLink} ${styles.navLeft}`}
+          >
+            HyperRental
           </Link>
 
           <div className={styles.navMiddle}>
-            <Link href="/buy" className={styles.link}>
-              Buy
+            <Link href="/rent" className={styles.link}>
+              Rent
             </Link>
-            <Link href="/sell" className={styles.link}>
-              Sell
+            <Link href="/lend" className={styles.link}>
+              Lend
             </Link>
           </div>
         </div>
