@@ -3,10 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
-/**
- * Landing page with a simple gradient background and a hero asset.
- * Free to customize as you see fit.
- */
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -29,7 +25,7 @@ const Home: NextPage = () => {
               <h1 className={styles.heroTitle}>
                 <span className={styles.heroTitleGradient}>Welcome 👋</span>
                 <br />
-                Hyper Rental
+                HyperRental
               </h1>
               <p className={styles.heroSubtitle}>
                 <Link
@@ -37,20 +33,20 @@ const Home: NextPage = () => {
                   href="https://github.com/bibitto/Hyper-Rental"
                   target="_blank"
                 >
-                  Hyper Rental
+                  HyperRental
                 </Link>{" "}
                 is a peer-to-peer collateral-free rental protocol which
-                utilizing token bound account to allow true ownership of the
-                rented NFT for the renters.
+                utilizing token bound account to enable true ownership of rented
+                assets and rental of all token standards.
               </p>
 
               <div className={styles.heroCtaContainer}>
-                <Link className={styles.heroCta} href="/buy">
+                <Link className={styles.heroCta} href="/rent">
                   Get Started
                 </Link>
                 <Link
                   className={styles.secondaryCta}
-                  href="https://github.com/thirdweb-example/marketplace-v3"
+                  href="https://github.com/bibitto/HyperRental-contract"
                   target="_blank"
                 >
                   GitHub
