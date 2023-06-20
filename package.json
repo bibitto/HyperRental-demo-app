@@ -11,20 +11,25 @@
     "deploy": "next build && next export && npx thirdweb@latest upload out"
   },
   "dependencies": {
+    "@moralisweb3/next": "^2.22.2",
     "@thirdweb-dev/chains": "^0.1.18",
     "@thirdweb-dev/react": "^3.12.2",
-    "@thirdweb-dev/sdk": "^3.10.17",
-    "ethers": "^5.7.2",
-    "next": "^13",
+    "base64url": "^3.0.1",
+    "ethers": "5",
+    "moralis": "^2.22.2",
+    "next": "^13.4.5",
+    "next-auth": "^4.22.1",
     "nextjs-progressbar": "^0.0.16",
-    "react": "^18.2",
-    "react-dom": "^18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-hook-form": "^7.43.0",
-    "react-hot-toast": "^2.4.0"
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^4.9.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.11",
     "@types/react": "^18",
+    "dotenv": "^16.1.4",
     "eslint": "^8.29.0",
     "eslint-config-next": "^13",
     "typescript": "^4.9.4"
