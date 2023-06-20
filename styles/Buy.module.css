@@ -34,6 +34,10 @@
   margin-bottom: 8px;
 }
 
+.linkContainer:hover {
+  color: #00aaee;
+}
+
 /* Responsive */
 
 @media (min-width: 1200px) {
